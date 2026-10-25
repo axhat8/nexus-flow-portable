@@ -1,0 +1,7 @@
+# ==============================================================
+# NEXUS FLOW - RENDER EDGE WIRE ENGINE URL
+# ==============================================================
+# Paste your dedicated remote Render / VPS backend URL below.
+# Example: https://your-dedicated-bot.onrender.com
+# DO NOT share your Render URL with other traders!
+# ==============================================================
