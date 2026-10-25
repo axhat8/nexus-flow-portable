@@ -2,9 +2,6 @@
 
 Nexus Flow is a hybrid high-frequency trading terminal for P2P traders.
 
-## Architecture
-- **Terminal UI**: Runs locally on your machine at `http://localhost:5173`.
-- **Wire Engine**: Executes on your dedicated remote cloud server (Render / VPS in Frankfurt) to ensure low latency and account safety.
 
 ## Quick Start
 1. Ensure [Node.js](https://nodejs.org/) (LTS version) is installed.
