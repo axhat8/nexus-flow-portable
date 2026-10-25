@@ -43,6 +43,8 @@ exit /b 1
 echo [*] Node.js detected successfully.
 echo.
 
+if exist "tools\serve.cjs" goto :DEPS_OK
+
 if exist package.json goto :PACKAGE_OK
 echo [ERROR] package.json not found in this folder!
 echo Please make sure the entire nexus-flow folder was extracted properly.

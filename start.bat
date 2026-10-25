@@ -70,7 +70,11 @@ echo   Keep this window open while trading!
 echo ============================================================== 
 echo.
 
-call npm run dev
+if exist "tools\serve.cjs" (
+    node tools\serve.cjs 5173
+) else (
+    call npm run dev
+)
 if errorlevel 1 (
     echo.
     echo [ERROR] Terminal server stopped.
