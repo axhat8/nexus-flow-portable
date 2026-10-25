@@ -1,6 +1,6 @@
 @echo off
 title Push Nexus Flow Portable to GitHub
-cd /d "%~dp0"
+cd /d "%~dp0..\nexus-flow-portable"
 
 echo ============================================================== 
 echo       PUSH NEXUS-FLOW-PORTABLE TO GITHUB REPOSITORY          
